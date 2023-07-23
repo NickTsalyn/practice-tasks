@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo</title>
+  <style>
+    .completed {
+      text-decoration: line-through; /* Закреслюємо виконані завдання */
+      color: gray; /* Змінюємо колір виконаних завдань */
+    }
+
+    .completed::before {
+      content: '\2714'; /* Вставляємо символ галочки перед виконаним завданням */
+      margin-right: 0.5em;
+    }
+  </style>
+</head>
+<body>
+  <a href="/index.html">Go Back</a>
+   <h1>Список справ</h1>
+  <form id="todo-form">
+    <input type="text" id="task-input" placeholder="Введіть завдання">
+    <button type="submit">Додати</button>
+  </form>
+  <ul id="task-list"></ul>
+  <button id="delete-completed">Видалити виконані</button>
+  <button id="delete-all">Видалити всі справи</button>
+
+  <script src="./task4.js"></script>
+</body>
+</html>

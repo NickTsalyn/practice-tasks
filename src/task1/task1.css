@@ -1,0 +1,22 @@
+.thumbnail {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .selected {
+    border: 2px solid red;
+  }
+  #mainImage {
+    display: block;
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #thumbnails {
+    display: flex;
+    justify-content: space-around;
+  }
