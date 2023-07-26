@@ -1,0 +1,2 @@
+var button=document.querySelector("#counterBtn"),count=document.querySelector("#counterValue"),clear=document.querySelector("#clear"),amount=0,storageKey="info";function onClick(){amount+=1,count.textContent=amount,localStorage.setItem(storageKey,amount)}button.addEventListener("click",onClick),localStorage.getItem(storageKey)&&(amount=parseInt(localStorage.getItem(storageKey)),count.textContent=amount),clear.addEventListener("click",(function(){amount=0,count.textContent=amount,localStorage.removeItem(storageKey)}));
+//# sourceMappingURL=task5.0f61b41f.js.map

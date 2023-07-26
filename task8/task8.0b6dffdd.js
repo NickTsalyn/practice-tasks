@@ -1,0 +1,2 @@
+function stepOne(){return new Promise((function(e){setTimeout((function(){e(10)}),1e3)}))}function stepTwo(e){return new Promise((function(n){setTimeout((function(){n(2*e)}),2e3)}))}function stepThree(e){return new Promise((function(n){setTimeout((function(){n(e+5)}),1500)}))}stepOne().then((function(e){return stepTwo(e)})).then((function(e){return stepThree(e)})).then((function(e){return console.log(e)})).catch((function(e){return console.log(e)})),stepOne().then(stepTwo).then(stepThree).then(console.log).catch(console.log);
+//# sourceMappingURL=task8.0b6dffdd.js.map

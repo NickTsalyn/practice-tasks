@@ -1,0 +1,2 @@
+var form=document.getElementById("timerForm"),input=document.querySelector("#minutes"),time=document.querySelector("#timerDisplay");function onSubmit(t){t.preventDefault();var e=parseInt(input.value);e>0&&countdown(e)}function countdown(t){var e=60*t,n=setInterval((function(){if(--e>=0){var t=Math.floor(e/60),o=e%60;time.textContent="".concat(t,":").concat(o.toString().padStart(2,"0"))}else clearInterval(n),time.textContent="Game Over !!!"}),1e3)}form.addEventListener("submit",onSubmit);
+//# sourceMappingURL=task2.20640ac0.js.map

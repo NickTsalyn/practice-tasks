@@ -1,0 +1,1 @@
+{"mappings":"ACAA,mBAIA","sources":["index.b796b1cd.css","src/styles.css"],"sourcesContent":["ul {\n  list-style: none;\n}\n\nbody {\n  font-size: 30px;\n}\n\n/*# sourceMappingURL=index.b796b1cd.css.map */\n","ul {\n    list-style: none;\n}\n\nbody {\n    font-size: 30px;\n}"],"names":[],"version":3,"file":"index.b796b1cd.css.map"}
